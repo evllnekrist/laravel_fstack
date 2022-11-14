@@ -1,0 +1,42 @@
+.wrap-text-md{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 150px;
+}
+
+.link-scretch:hover{
+    font-weight: 900;
+    color: green !important;
+}
+
+hr.grey-dot {
+    border-top: 1px dashed lightgrey;
+}
+
+.half-bar-light-primary{    
+    content: "";
+    background-color: #e1f0ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100px;
+
+}
+
+@media (min-width: 576px) {
+    .half-bar-light-primary{
+      max-width: 500px;
+    }
+}
+
+stronger{
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.ft-small-compact{
+    line-height: 1.2;
+    font-size: 80%;
+}
